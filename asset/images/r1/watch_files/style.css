@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'ZEE5_Player';
+  src:  url('fonts/ZEE5_Player.eot?hk45sp');
+  src:  url('fonts/ZEE5_Player.eot?hk45sp#iefix') format('embedded-opentype'),
+    url('https://zee5-public-sharing.s3.ap-south-1.amazonaws.com/zee5kalturaplayer/css/fonts/ZEE5_Player.ttf') format('truetype'),
+    url('https://zee5-public-sharing.s3.ap-south-1.amazonaws.com/zee5kalturaplayer/css/fonts/ZEE5_Player.woff') format('woff'),
+    url('https://zee5-public-sharing.s3.ap-south-1.amazonaws.com/zee5kalturaplayer/css/fonts/ZEE5_Player.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"], [class*="-icon-"], .checkmark  {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ZEE5_Player' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: 15px; */
+}
+
+.checkmark:after {
+  content: "\74";
+  color: #d10374;
+  position: absolute;
+  display: none;
+  font-weight: bolder !important;
+  font-size: 19px;
+}
+
+
+.playkit-icon-maximize:before {
+  content: "\46";
+  color: white;
+  
+}
+
+.playkit-icon-minimize:before {
+  content: "\45";
+  color:white;
+  
+}
+
+.playkit-icon-picture-in-picture:before {
+  content: "\6d";
+  color:white;
+}
+
+.playkit-icon-prev:before {
+  content: "\47";
+  color:white;
+}
+
+.playkit-icon-next:before {
+  content: "\6e";
+  color:white;
+}
+
+ /* .playkit-icon-volume-base:before {
+  content: "\44";
+  color:white;
+} */
+
+.playkit-icon-volume-waves:before {
+  content: "\55";
+  color:white;
+}
+
+.playkit-icon-volume-mute:before {
+  content: "\4f";
+  color:white;
+} 
+
+
+.icon-ic_-down_arrow:before {
+  content: "\64";
+}
+
+
+
+.icon-ic_fullscreen:before {
+  content: "\46";
+}
+.icon-ic_-down_arrow:before {
+  content: "\64";
+}
+.icon-ic_-volume_down:before {
+  content: "\44";
+}
+.icon-ic_-volume_mute:before {
+  content: "\4d";
+}
+.icon-ic_-volume_off:before {
+  content: "\4f";
+}
+.icon-ic_-volume_up:before {
+  content: "\55";
+}
+.icon-ic_add_to_watchlist:before {
+  content: "\61";
+}
+.icon-ic_audio_track:before {
+  content: "\54";
+}
+.icon-ic_chromecast:before {
+  content: "\63";
+}
+.icon-ic_close:before {
+  content: "\43";
+}
+.icon-ic_disble_autoplay:before {
+  content: "\31";
+}
+.icon-ic_download:before {
+  content: "\30";
+}
+.icon-ic_enable_autoplay:before {
+  content: "\32";
+}
+.icon-ic_forward_10sec:before {
+  content: "\66";
+}
+
+.icon-ic_fullscreen_exit:before {
+  content: "\45";
+}
+.icon-ic_miniplayer:before {
+  content: "\6d";
+}
+.icon-ic_more_vert:before {
+  content: "\56";
+}
+.icon-ic_next_10sec:before {
+  content: "\4e";
+}
+
+.icon-ic_next:before {
+  content: "\6e";
+}
+.icon-ic_pause:before {
+  content: "\50";
+}
+.icon-ic_play:before {
+  content: "\70";
+}
+
+
+.icon-ic_previous_10sec:before {
+  content: "\33";
+}
+.icon-ic_previous:before {
+  content: "\47";
+}
+.icon-ic_quality:before {
+  content: "\51";
+}
+.icon-ic_remove:before {
+  content: "\52";
+}
+.icon-ic_replay_10sec:before {
+  content: "\72";
+}
+.icon-ic_share:before {
+  content: "\53";
+}
+.icon-ic_subtitle:before {
+  content: "\73";
+}
+.icon-ic_tick:before {
+  content: "\74";
+}
+.playkit-icon-language:before {
+  content: "\73";
+}
+.playkit-icon-forward-10:before {
+  content: "\66";
+}
+.playkit-icon-rewind-10:before {
+  content: "\72";
+}
+.playkit-icon-play:before {
+  content: "\70";
+}
+.playkit-icon-pause:before {
+  content: "\50";
+}

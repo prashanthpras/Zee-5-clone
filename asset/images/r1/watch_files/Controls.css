@@ -1,0 +1,3137 @@
+/*playback control starts*/
+#player-placeholder .playkit-player-gui > .playkit-playback-controls {
+  position: absolute;
+  top:calc(50% - 28px);
+  left: 22%;
+  right: 22%;
+  display: block;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  height:56px;
+}
+.playkit-player:not(.playkit-touch)
+  .playkit-control-button-container.playkit-control-fullscreen
+  .playkit-control-button:hover {
+  transform: none !important;
+}
+#ins_endcard {
+  text-decoration:none;
+  display:block;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0;
+  bottom:0;
+  z-index:95;
+}
+
+/* .playkit-player.playkit-overlay-active .overlay-portal {
+	z-index: 0;
+} */
+.heroBannerCarousel #player-placeholder .networkError img {
+  background: none;
+}
+.heroBannerCarousel .slick-slider .slick-list .slick-track .slick-slide .carouselMain figure .content .networkError img {
+  width: auto;
+  display: inline;
+}
+.zeeplex-Logo-container {
+  background: center 100%/ 100% no-repeat url(./images/zee-plex-logo.png);
+  width: 63px;
+  height: 32px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#player-placeholder .playkit-ads-cover {
+  z-index: 1;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .totalDuration.adBreak {
+  display: none;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .currentDuration.adBreak {
+  display: none;
+}
+
+#player-placeholder .playkit-player-gui .playkit-playback-controls .PlayPause-control {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button-container{
+  margin:0 0px;
+}
+#player-placeholder .watchCreditContainer {
+  width: 95px;
+  height: 24px;
+  top: calc(95% - 134px);
+  background-color: white;
+  right: 0;
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+#player-placeholder .trailerInfoContainer{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 17px;
+  font-size: 12px;
+  left: 16px;
+  background: transparent;
+  color: #fff;
+  position: absolute;
+  width: 265px;
+  font-family: "NotoSansRegular";
+}
+
+#player-placeholder .eduauraaMessage{
+  font-size: 11px;
+  left: 12px;
+  bottom: 12px;
+  background: transparent;
+  color: #fff;
+  position: absolute;
+  font-family: "NotoSansRegular";
+}
+
+#player-placeholder .watchCreditContainer .watchCreditText {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "NotoSansMedium";
+  color: #ff0091;
+  font-weight: 600;
+  font-size: 10px;
+  cursor: pointer;
+}
+#player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar{
+  height: 2px;
+  border-radius:0;
+}
+.main-container-incognito {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.browser-error-msg {
+  text-align: center;
+  font-size: 17px;
+  line-height: 26px;
+  background: rgba(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+#player-placeholder .main-container .adult-content-error-msg {
+  text-align: center;
+  font-size: 14px;
+  padding: 0% 5% 0% 5%;
+  line-height: 20px;
+  opacity: 0.8;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+}
+.browser-error-text {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  margin: 0% 5% 0% 5%;
+}
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 12;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.main-container.tvodOverlay {
+  background-color: #401a4c !important;
+  opacity:0.9;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1.tvodhrline {
+  border-bottom :none;
+}
+#player-placeholder .main-container .adult-content-error-msg .login-text {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 2.5vh;
+  cursor: pointer;
+}
+#launch-btn-id {
+  right: 0px !important;
+  left: 25vw;
+}
+#login,
+#contact {
+  color: #d80a6a;
+}
+#player-placeholder .launch-container > .okButton{
+  cursor: pointer;
+  position: absolute;
+  height: 32px;
+  background: white;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  top: 57%;
+  right: 48%;
+  line-height: 32px;
+  padding: 0 25px 0 24px;
+  }
+#player-placeholder .launch-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 2;
+}
+#player-placeholder .launch-container .launch-child-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#player-placeholder .launch-container .launch-text {
+  font-family: "NotoSansRegular";
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 5px !important;
+  margin-top: 10px !important;
+}
+
+#player-placeholder .launch-container .messageBtnWrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#player-placeholder .launch-container #campatible-launch-text {
+  /* width: 48%; */
+  width: 100%;
+}
+#player-placeholder .launch-container .messageBtnWrapper .drm-launch-btn {
+  height: 40px;
+  width: 188px;
+  margin-top: 15% !important;
+  background-image: linear-gradient(272deg, #a100ff, #ff0000 99%);
+  color: white;
+  font-family: "NotoSansBold";
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.43px;
+  text-align: center;
+  border: none;
+  position: absolute;
+  z-index: 12;
+  border-radius: 25px;
+}
+#player-placeholder .chromeCastBtnContainer {
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  margin-top: 10px;
+  right: 2%;
+  background: transparent;
+  cursor: pointer;
+  z-index: 1;
+  width: 24px;
+  height: 19px;
+  /* height: 24px;
+	width: 30px; */
+}
+#player-placeholder .chromeCastBtnContainer .chromeCastIcon {
+  display: block !important;
+}
+
+#player-placeholder .timeMarker {
+  position: absolute;
+  width: 8px;
+  background-color: #ffffff;
+  border-radius: 74%;
+  height: 8px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*livetag*/
+/*Go live btn*/
+.livetagContainer{
+  position: relative;
+}
+.GoliveContainer {
+  position: absolute;
+  background-color: white;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  right: 100%;
+  cursor: pointer;
+}
+.goliveBtn{
+  font-family: "NotoSansMedium";
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e61c39;
+  white-space: nowrap;
+}
+.livetagContainer .playkit-live-tag {
+  color: #ffffff;
+  line-height: 20px;
+  background-color: #da1f26;
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  right: 100%;
+  position: absolute;
+  pointer-events:none;
+  margin:0 8px;
+}
+
+.playkit-player.playkit-casting .eduauraaMessage,
+.playkit-player.playkit-hover .eduauraaMessage,
+.playkit-player.playkit-state-paused .eduauraaMessage,
+.playkit-player.playkit-state-idle .eduauraaMessage,
+.playkit-player.playkit-ad-break .eduauraaMessage,
+.playkit-player.playkit-menu-active .eduauraaMessage {
+	bottom: 80px !important;
+}
+/**/
+/*hide carousel control starts*/
+.carouselMain #player-placeholder .playkit-bottom-bar .settingcontainer {
+  display: none;
+}
+.carouselMain #player-placeholder .playkit-bottom-bar .toggleScreen {
+  display: none;
+}
+.carouselMain #player-placeholder .playkit-bottom-bar .bottom-right-container {
+  width: 100%;
+}
+/* .carouselMain #player-placeholder .playkit-bottom-bar .bottom-right-container .playkit-live-tag {
+  bottom: 2px;
+} */
+.carouselMain #player-placeholder .playkit-playback-controls .PlayPause-control {
+  display: none !important;
+}
+.carouselMain #player-placeholder #liveProgressBar {
+  display: none;
+}
+.carouselMain #player-placeholder .playkit-progress-bar {
+  display: none;
+}
+.carouselMain .playkit-player .playkit-bottom-bar {
+  height: auto !important;
+}
+.carouselMain #player-placeholder .playkit-player .playkit-bottom-bar .bottom-left-container {
+  width: 100%;
+  position: relative;
+}
+.carouselMain #player-placeholder .playkit-player .playkit-bottom-bar .bottom-left-container .volume-container {
+  float: right;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    margin-bottom: 28%;
+}
+.carouselMain #player-placeholder .playkit-player .playkit-bottom-bar {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.carouselMain
+  #player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-left-container
+  .volume-container:hover {
+  margin-right: 0px;
+  transition: none;
+  display: block;
+  right: 0%;
+}
+
+/*hide carousel control ends*/
+#player-placeholder .playkit-player .playkit-control-button {
+  animation: none !important;
+  outline: none;
+}
+#player-placeholder .playkit-player .playkit-bottom-bar{
+  /* padding:16px; */
+  position: absolute;
+  padding: 0 16px 16px 16px;
+}
+#player-placeholder .playkit-player .playkit-control-button:focus,
+#player-placeholder .playkit-player .playkit-control-button:visited,
+#player-placeholder .playkit-player .playkit-control-button::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
+#player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control {
+  float: left;
+  margin-top: 16px;
+  height: 56px;
+}
+#player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control {
+  float: right;
+  margin-top: 16px;
+  /* margin-top:3px; */
+  height: 56px;
+}
+#player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control .playkit-icon-forward-10,
+#player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control .playkit-icon-rewind-10 {
+  background-image:none;
+  font-size:24px;
+  color:#fff;
+}
+
+/* #player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control .playkit-icon-forward-10 {
+  background-image: url("../css/images/10-sec-back.png");
+  color: white;
+  cursor: pointer;
+  border: none;
+ background-color: transparent;
+  background-size: 65%;
+  transform: scale(1.2); 
+} 
+/* #player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control .playkit-icon-rewind-10 {
+  color: white;
+  cursor: pointer;
+  background-image: url("../css/images/10-sec-forward.png");
+  border: none;
+  /* background-color: transparent;
+  background-size: 65%;
+  transform: scale(1.2); 
+} */
+.playkit-player .playkit-bottom-bar .playkit-control-button-container.playkit-volume-control {
+  margin: 0 0px;
+}
+.playkit-control-button-container.playkit-volume-control.playkit-is-muted .playkit-icon-volume-base {
+  transform: scale(0);
+}
+  #player-placeholder
+  .playkit-control-button-container.playkit-control-play-pause
+  .playkit-control-button
+  .playkit-icon-play {
+    background-image: none;
+    font-size: 32px;
+    color:#fff;
+} 
+#player-placeholder
+ .playkit-control-button-container.playkit-control-play-pause
+ .playkit-control-button
+ .playkit-icon-pause{
+  background-image: none;
+  font-size: 46px;
+  color:#fff;
+ }
+#player-placeholder
+  .playkit-control-button-container.playkit-control-play-pause
+  .playkit-control-button
+  .playkit-icon-start-over{
+    margin-top: 13px;
+  }
+#player-placeholder 
+.playkit-player-gui 
+.playkit-bottom-bar 
+.bottom-right-container 
+.settingcontainer .playkit-control-button .playkit-icon-settings{
+  font-size: 24px;
+}
+
+#player-placeholder
+  .playkit-control-button-container
+  .playkit-control-button
+  .playkit-icon-settings {
+  border: none;
+  background-color: transparent;
+  background-image: url("./images/setting.svg");
+}
+
+/*playback control ends*/
+
+/*Player Bottom container Starts*/
+
+#player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar .playkit-scrubber {
+  background-color: #5C2ADE;
+  height: 16px !important;
+  width: 16px !important;
+  z-index: 1;
+  transform: scale(1);
+  top:-7px;
+  /* left:1px; */
+}
+
+/* #player-placeholder .playkit-player .playkit-control-button i {
+  width: 32px !important;
+  height: 32px !important;
+  outline: none;
+} */
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button,
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button i{
+  width:24px;
+  height:24px;
+}
+
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button{
+  position: relative;
+  width:56px;
+  height:56px;
+    /* width: 56px;
+    line-height: 56px;
+    height: 56px; */
+}
+
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button .playkit-icon-start-over{
+  position: relative;
+  width:46px;
+  height:46px;
+    /* width: 56px;
+    line-height: 56px;
+    height: 56px; */
+}
+
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button i{
+  /* width:32px;
+  height:32px; */
+  width:auto;
+  height:auto;
+}
+
+.playkit-player.playkit-size-sm:not(.playkit-state-idle).playkit-hover .playkit-player-gui > .playkit-playback-controls .playkit-control-button, .playkit-player.playkit-size-xs:not(.playkit-state-idle).playkit-hover .playkit-player-gui > .playkit-playback-controls .playkit-control-button, .playkit-player.playkit-touch:not(.playkit-state-idle).playkit-hover .playkit-player-gui > .playkit-playback-controls .playkit-control-button {
+  padding:0 0px;
+}
+#player-placeholder .playkit-player .playkit-control-button i:visited,
+#player-placeholder .playkit-player .playkit-control-button i:focus {
+  outline: none;
+}
+#player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar .playkit-progress {
+  background: linear-gradient(270deg, #5730C7 0%, #5C2ADE 48.11%, #2928D4 94.83%);
+}
+
+/**settings and maximize/minimize starts*/
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container {
+  float: right;
+  height: 24px;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer {
+  float: left;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .toggleScreen {
+  float: right;
+}
+
+#player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-right-container
+  .playkit-control-fullscreen
+  .playkit-control-button
+  .playkit-icon-maximize,
+  #player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-right-container
+  .playkit-control-fullscreen
+  .playkit-control-button
+  .playkit-icon-minimize {
+  background-image: none;
+  font-size: 24px;
+}
+
+  
+
+/*settings and maximize/minimize ends*/
+
+/**volume and video time display starts*/
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container {
+  float: left;
+  height: 24px;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container {
+  float: left;
+  transition: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right:8px;
+}
+.playkit-control-button-container.playkit-volume-control i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.playkit-player .playkit-bottom-bar .playkit-control-button-container {
+  margin: 0 8px;
+}
+
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .toggleScreen .playkit-control-button-container {
+  margin: 0 0 0 8px;
+}
+
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .playkit-control-button-container .playkit-control-button .playkit-icon-settings {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* #player-placeholder .volume-container .playkit-volume-control .playkit-volume-control-bar {
+	display: none !important;
+} */
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .timeDuration-Container {
+  padding-top: 0px;
+  float: left;
+  margin-left: 0;
+  position: relative;
+  padding-left:8px;
+  top: -6px;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-mute,
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-base,
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-waves{
+  background-image: none;
+  /* margin-top: 9%; */
+  /* margin-top: 32%; */
+  font-size: 24px !important;
+}
+
+/* #player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button i {
+  width: 24px !important;
+  height: 24px !important;
+  outline: none;
+} */
+#player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button,
+#player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button i{
+  width: 24px !important;
+  height: 24px !important;
+  outline: none;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .currentDuration {
+  float: left;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .AdscurrentDuration {
+  float: left;
+  display: none;
+}
+/* #player-placeholder .playkit-player .playkit-control-button {
+	opacity: 1;
+} */
+#player-placeholder .volume-container .playkit-volume-control-bar {
+  display: none !important;
+  opacity: 0;
+}
+
+#player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-left-container
+  .currentDuration
+  .playkit-time-display::after {
+  content: "/";
+  padding: 0px 5px;
+}
+
+#player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-left-container
+  .AdscurrentDuration
+  .playkit-time-display::after {
+  content: "/";
+  padding: 0px 5px;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .totalDuration {
+  float: right;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .AdstotalDuration {
+  float: right;
+  display: none;
+}
+#player-placeholder .timeDuration-Container .playkit-time-display {
+  font-weight: normal;
+  margin-left: 0 !important;
+  padding: 1px 0px 0px 0px;
+}
+
+/**volume and video time display ends*/
+/*Settings starts*/
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer {
+  height: auto;
+  display: grid;
+  background: #000000;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  position: absolute;
+  right: -52px;
+  width: 48vw;
+  font-size: 1em;
+  display: block;
+  bottom: 100%;
+  margin-bottom: 28px;
+  color: white;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml {
+  width: 55vw;
+}
+#player-placeholder .bottom-right-container .settingcontainer .setting-middle-line {
+  width: 100%;
+  height: 2px;
+  background: #333333;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper {
+  padding: 5%;
+  margin: 1.5%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  /* border-bottom: solid 2px #333333; */
+  padding-bottom: 10px;
+  text-align:left;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .iconsWrapper {
+  float: left;
+  font-size: 16px;
+  width: 25px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .mainMenu {
+  margin-left: 8px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml .itemWrapper .mainMenu{
+  margin-left: 3px;
+}
+
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_kn .itemWrapper .mainMenu {
+  margin-left: 1px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .mainMenu .menuTitle {
+  font-size: 0.9em;
+  font-family: "NotoSansRegular";
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .autotext {
+  font-size: 0.8em;
+  font-family: "NotoSansRegular";
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #cfc3ca;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .subtitleContainer .playkit-icon-language {
+  background-image: none;
+  color:#fff;
+  font-size: 24px;
+}
+#player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .subtitleContainer{
+  float: left;
+}
+
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer {
+  background: #060107;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  position: absolute;
+  right: -52px;
+  width: 45vw;
+  font-size: 0.9em;
+  z-index: 10;
+  display: block;
+  animation: playkit-openSmartContainer 100ms ease-out forwards;
+  bottom: 0;
+  margin-bottom: 50px;
+  color: white;
+  /* max-height: 23vh; */
+  max-height: 15vh;
+  overflow-x: hidden;
+  font-family: "NotoSansRegular";
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer{
+  right:-74px;
+}
+.tickMark {
+  background-image: url("./images/checkmark.png");
+  background-repeat: no-repeat;
+  background-position: 2%;
+  background-size: 20px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .iconWrap {
+  background-image: url("./images/back_arrow.png");
+  background-repeat: no-repeat;
+  background-position: 2%;
+  background-size: 20px;
+}
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .subMenuHeading,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer .subMenuHeading {
+  font-size: 1em;
+  padding: 12px;
+  font-family: "NotoSansRegular";
+  text-align: left;
+  margin: 1.5%;
+  /* border-bottom: solid 1px #333333; */
+}
+
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .subMenuHeading .submenutitle,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer .subMenuHeading .submenutitle {
+  padding-left: 25%;
+}
+
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .subMenuWrapper,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer .subMenuWrapper {
+  font-size: 1em;
+  padding: 15px;
+  font-family: "NotoSansRegular";
+  text-align: left;
+  margin: 1.5%;
+  /* border-bottom: solid 1px #333333; */
+}
+
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .subMenuWrapper .subMenu,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer .subMenuWrapper .subMenu {
+  padding-left: 25%;
+}
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .subMenuWrapper:hover,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer .subMenuWrapper:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+/* width */
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer::-webkit-scrollbar,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer::-webkit-scrollbar{
+  width: 5px;
+}
+
+/* Track */
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer::-webkit-scrollbar-track,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #eee;
+  border-radius: 10px;
+}
+
+/* Handle */
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer::-webkit-scrollbar-thumb,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#player-placeholder .bottom-right-container .settingcontainer .subMenuContainer::-webkit-scrollbar-thumb:hover,
+#player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/**settings ends*/
+
+/*Player Error starts*/
+#player-placeholder .playkit-video-player .playkit-container .networkError {
+  position: relative;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+}
+
+#player-placeholder .playkit-video-player .playkit-container .networkError .networkErrorAllContainer {
+  border-radius: 8px;
+  position: absolute;
+  margin: auto;
+  background-color: #350e30;
+  opacity: 0.8;
+  width: 80%;
+  height: fit-content;
+  top: 50%;
+  right: 0;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#player-placeholder
+  .playkit-video-player
+  .playkit-container
+  .networkError
+  .networkErrorAllContainer
+  .networkErrorContainer {
+  position: relative;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+}
+
+#player-placeholder
+  .playkit-video-player
+  .playkit-container
+  .networkError
+  .networkErrorAllContainer
+  .networkErrorContainer
+  .networkErrorMsg {
+  font-size: 12px;
+  color: white;
+  line-height: 1.6;
+}
+
+#player-placeholder
+  .playkit-video-player
+  .playkit-container
+  .networkError
+  .networkErrorAllContainer
+  .networkErrorContainer
+  .retryButton {
+  padding-top: 0.6rem;
+}
+
+#player-placeholder
+  .playkit-video-player
+  .playkit-container
+  .networkError
+  .networkErrorAllContainer
+  .networkErrorContainer
+  .retryButton
+  .retry {
+  text-align: center;
+  color: #ff0091;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  font-weight: 200;
+}
+/*Player Error ends*/
+
+.playkit-player:not(.playkit-overlay-active).playkit-state-paused .playkit-subtitles,
+.playkit-player:not(.playkit-overlay-active).playkit-state-idle .playkit-subtitles,
+.playkit-player:not(.playkit-overlay-active).playkit-hover .playkit-subtitles {
+  transform: none !important;
+}
+
+.playkit-subtitles > div > div > div {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: rgb(0, 0, 0, 0.6) !important;
+  overflow: hidden;
+  line-height: 22px;
+}
+.playkit-subtitles > div > div {
+  padding: 0px;
+  text-overflow: ellipsis;
+  top: auto !important;
+  white-space: unset !important;
+  height: auto !important;
+}
+.playkit-hover .playkit-subtitles > div > div {
+  bottom: 50px !important;
+}
+.playkit-state-paused .playkit-subtitles > div > div {
+  bottom: 50px !important;
+}
+.playkit-player .playkit-tooltip .playkit-tooltip-label.playkit-show {
+  display: none;
+}
+#player-placeholder .playkit-player .playkit-tooltip .playkit-control-button.playkit-icon.playkit-icon-rewind-10 {
+  transform: none !important;
+}
+
+.playkit-player.playkit-casting .playkit-playback-controls,
+.playkit-player.playkit-hover .playkit-playback-controls,
+.playkit-player.playkit-state-paused .playkit-playback-controls,
+.playkit-player.playkit-state-idle .playkit-playback-controls,
+.playkit-player.playkit-ad-break .playkit-playback-controls,
+.playkit-player.playkit-menu-active .playkit-playback-controls {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.playkit-player .playkit-watermark.playkit-left {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+ }
+
+ .playkit-player .customOverlay {
+  background: none;
+  height:100%;
+  left: 0;
+  margin: 0;
+  padding:0;
+  pointer-events: none;
+  top:0;
+  width: 100%;
+  }
+   .playkit-player .playkit-watermark {
+ padding: 0 !important;
+ }
+  .playkit-player .playkit-watermark.playkit-top.playkit-left{
+  width: 100%;
+  height: 100%;
+  }
+  .playkit-player .playkit-watermark.playkit-top.playkit-left img{
+  width: 100%;
+  height: 100%;
+}
+.playkit-player:not(.playkit-pre-playback):not(.playkit-overlay-active).playkit-state-paused
+  .playkit-watermark.playkit-bottom,
+.playkit-player:not(.playkit-pre-playback):not(.playkit-overlay-active).playkit-state-idle
+  .playkit-watermark.playkit-bottom,
+.playkit-player:not(.playkit-pre-playback):not(.playkit-overlay-active).playkit-hover
+  .playkit-watermark.playkit-bottom {
+  transform: none !important;
+}
+
+.playkit-control-fullscreen .playkit-control-button .playkit-is-fullscreen.playkit-player a > img {
+  width: 600px;
+}
+
+.playkit-spinner {
+  animation: none !important;
+  background-image: url("./images/loading.gif");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  position: unset;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+.playkit-spinner span {
+  display: none !important;
+}
+
+.playkit-overlay.playkit-active {
+  display: none !important;
+}
+
+.playkit-overlay-active .playkit-video-player {
+  filter: none !important;
+}
+
+.playkit-player .playkit-bottom-bar .playkit-control-button-container {
+  margin: 0 8px;
+}
+
+.bottom-left-container .playkit-control-button {
+  transform: rotate(-90deg);
+}
+
+.bottom-left-container .playkit-control-button-container {
+  transform: rotate(90deg);
+}
+
+.poc-loader {
+  position: absolute;
+  top:calc(50% - 28px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.timeDuration-Container .playkit-time-display {
+  font-size: 12px;
+}
+.playkit-control-button-container.playkit-control-play-pause .playkit-control-button.playkit-is-playing {
+  transform: none !important;
+}
+
+.playkit-player.playkit-touch:not(.playkit-state-idle).playkit-hover
+  .playkit-player-gui
+  > .playkit-playback-controls
+  .playkit-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.playkit-player.playkit-size-md .playkit-time-display {
+  padding: 0px;
+}
+#player-placeholder .playkit-icon .playkit-icon-rewind-10 {
+  transform: none !important;
+}
+
+#player-placeholder .carousel-slider {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  width: 100%;
+  align-items: flex-end;
+  margin-left: 8px;
+  scrollbar-color: hsla(0, 0%, 0%, 0.1) #17171700;
+  scrollbar-width: thin;
+  height: 56px;
+  /* height: 31%; */
+  /* top: calc(100% - 56%); */
+  bottom: 60px;
+}
+
+#player-placeholder .carousel-slider > div {
+  /* make sure the width is honored */
+  flex-shrink: 0;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 100%;
+  margin-right: 7px;
+}
+#player-placeholder .carousel-slider .carousal-video-movies {
+  width: 90px;
+  height: 95%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#player-placeholder .carousel-slider .mainCarouselDiv {
+  display: flex;
+  width: 190px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: solid 1px #ffffff4f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#player-placeholder .carousel-slider .mainCarouselDiv .carousal-video {
+  width: 84px !important;
+  height: 38px;
+  margin: 5px;
+  border-radius: 6px;
+}
+#player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer {
+  width: 160px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+#player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNext {
+  color: #ff0091;
+  position: relative;
+  height: 34px;
+  top: 10px;
+  height: 25px;
+  font-family: "NotoSansMedium";
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #ff0091;
+}
+
+#player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextTitle {
+  position: relative;
+  top: 1px;
+  font-family: "NotoSansMedium";
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 70px !important;
+}
+
+#player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextStart {
+  position: relative;
+  height: 20px;
+  font-family: "NotoSansMedium";
+  font-size: 8px;
+  font-weight: normal;
+  top: 4px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextStart .second-color {
+  color: #ff0091;
+}
+#player-placeholder .carousel-slider .carousal-button-container {
+  display: none;
+}
+#player-placeholder .playkit-video-player .main-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 12;
+  background-color: rgba(0, 0, 0);
+}
+#player-placeholder .playkit-video-player .playkit-container .incognito-support-message {
+  background-color: rgba(0, 0, 0,0.8);
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 {
+  text-align: center;
+  font-family: "NotoSansRegular";
+  font-size: 14px;
+  letter-spacing: 1px;
+  top: 17%;
+  margin: 7% 0%;
+}
+
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1.mandatory>.skip-button{
+  color:#DA76FF;
+  border-bottom: 1px dashed #DA76FF;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 {
+  text-align: center;
+  font-family: "NotoSansRegular";
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding-top: 7%;
+  border-top: 1px solid;
+  top: 55%;
+  margin: 7% 0%;
+}
+
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2.mandatory {
+  padding-top: 2px;
+  border: none;
+}
+  /*css for aligning login button*/
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2.mandatory * {
+    /* display: inline; */
+    font-size: 14px;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2.mandatory::before{
+    content: '';
+    width: 100%;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 49.36%, #FFFFFF 50%, rgba(255, 255, 255, 0) 98.36%);
+      height: 1px;
+  }
+#player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium {
+  text-align: center;
+  font-size: 14px;
+  font-family: "NotoSansRegular";
+  margin: 3.5% 0% !important;
+  width: 100%;
+  line-height: normal;
+}
+#player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container .main-container-2 .alreadyHave-msg {
+    text-align: center;
+    font-size: 14px;
+    font-family: "NotoSansRegular";
+    margin: 2% 0% 4% 0% !important;
+    width: 100%;
+    line-height: normal;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 .subscribe-link {
+  text-align: center;
+  width: 100%;
+  color: #ff0091;
+  font-size: 14px;
+  font-family: "NotoSansRegular";
+  line-height: normal;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 .skip-button {
+  margin-top: 10px;
+  -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .login-msg {
+  margin-bottom: 7%;
+  line-height: normal;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg {
+  margin-bottom: 5%;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+#player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_ml, #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 .subscribe-link.subscribemsg_ml,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .login-msg.subscribemsg_ml{
+    line-height: 1;
+}
+#player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .login-link {
+  text-align: center;
+  width: 100%;
+  color: #ff0091;
+  font-family: "NotoSansRegular";
+  -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+#player-placeholder .playkit-video-player .parentlockContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: #000000;
+}
+#player-placeholder .playkit-video-player .parentlockContainer .parentLock {
+  /* border: 1px solid #fff;  */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 85%;
+  height: 90%;
+  max-width: 350px;
+  max-height: 240px;
+  border-radius: 6px;
+  box-shadow: 0 13px 14px -12px rgba(0, 0, 0, 0.16);
+  background-color: #2e0130;
+}
+#player-placeholder .playkit-video-player .parentlockContainer .parentLock .enterPinMsg {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2em;
+  font-family: NotoSans;
+  margin-top: 24px;
+  text-align: center;
+}
+#player-placeholder .playkit-video-player .parentlockContainer .parentLock .parentLockInput {
+  width: 15%;
+  height: 19%;
+  border: 1px solid #9c9c9c;
+  margin: 4%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-4%, -90%);
+  transform: translateX(20%);
+  z-index: 10;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 4px;
+  background-color: #9c9c9c;
+  border-radius: 9px;
+  opacity: 0.4;
+  margin-top: 15px;
+}
+#player-placeholder .playkit-video-player .parentlockContainer .parentLock #incorrectPin {
+  font-size: 14px;
+  color: #ffffff;
+  display: none;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 0px;
+}
+.popup-background-container {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100 !important;
+  top: 0%;
+  color: white;
+  width: 100%;
+  /* height: 150%; */
+  height: 100vh;
+  overflow-y: scroll;
+}
+.popup-background-container .beforeTv-popup-main-container {
+  max-width: 420px;
+  height: 90%;
+  top: 50vh;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-close {
+  width: 100%;
+  max-width: 420px;
+  top: 0%;
+  height: 5%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-close .close-button {
+  text-align: center;
+  /* padding-left: 8px; */
+  background-color: #676363;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  float: right;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-close .close-button .close-icon {
+  background: url("https://zee5-public-sharing.s3.ap-south-1.amazonaws.com/zee5kalturaplayer/css/images/close-icon.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 32px;
+  width: 32px;
+  transform: scale(0.85) !important;
+  margin: 4px !important;
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container {
+  background-color: #2e0130;
+  /*  width: 345px;  */
+  width: 100%;
+  max-width: 420px;
+  height: fit-content;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  margin-top: 35px;
+  transform: translate(-50%, 0%);
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .image-container {
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  height: 168px;
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .popup-title-container {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  margin: 5% 10%;
+  font-family: "NotoSansBold";
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  color: #ffffff;
+}
+
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .shows-list-container {
+  margin-left: 6%;
+  line-height: 21.8px;
+  opacity: 0.8;
+  font-family: "NotoSansRegular";
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.popup-background-container
+  .beforeTv-popup-main-container
+  .beforeTv-subscribe-popup-container
+  .shows-list-container
+  #list-item {
+  color: #ffffff;
+  font-size: 11px;
+  margin: 2vh 2%;
+  background-image: url("./images/check.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px;
+  padding-left: 29px;
+}
+.popup-background-container
+  .beforeTv-popup-main-container
+  .beforeTv-subscribe-popup-container
+  .subscribe-now-container {
+  margin-bottom: 7%;
+}
+.popup-background-container
+  .beforeTv-popup-main-container
+  .beforeTv-subscribe-popup-container
+  #subscribe-now-container-id {
+  margin-bottom: 5%;
+}
+.popup-background-container
+  .beforeTv-popup-main-container
+  .beforeTv-subscribe-popup-container
+  .subscribe-now-container
+  #subscribe-now-button {
+  margin-top: 5%;
+  display: block;
+  width: 150px;
+  border-radius: 25px;
+  height: 41.8px;
+  background-image: linear-gradient(272deg, #a100ff, #ff0000 99%);
+  margin: auto;
+  margin-top: 7%;
+  border: none;
+  font-family: "NotoSansBold";
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .Watch-free-container {
+  /* margin-top: 5vh; */
+  font-family: "NotoSansMedium";
+  font-size: 12px;
+  margin-bottom: 5vh;
+  letter-spacing: -0.43px;
+  line-height: normal;
+  font-weight: 600;
+  object-fit: contain;
+  color: #bf006b;
+  text-align: center;
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .middle-Line {
+  width: 100%;
+  height: 0px;
+  opacity: 0.35;
+  margin-bottom: 4%;
+  border: solid 0.5px rgba(255, 255, 255, 0.6);
+}
+.popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .Upgrade-to-Premium {
+  width: 100%;
+  height: 19px;
+  font-family: "NotoSansMedium";
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: -0.43px;
+}
+
+.popup-background-container
+  .beforeTv-popup-main-container
+  .beforeTv-subscribe-popup-container
+  .subscribe-now-container
+  #Loginbutton {
+  display: block;
+  width: 150px;
+  border-radius: 25px;
+  height: 6vh;
+  min-height: 40px;
+  max-height: 50px;
+  margin: auto;
+  margin-top: 7%;
+  border: none;
+  font-family: "NotoSansBold";
+  font-size: 1.4em;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 25px;
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+.device-limit-popup-background-container {
+  height: 100%;
+}
+.device-limit-popup-background-container .device-limit-popup-main-container {
+  width: 100%;
+  max-width: 328px;
+  top: 20%;
+  position: absolute;
+  left: 0;
+  margin: auto;
+  right: 0;
+  /* transform: translateY(-50%); */
+}
+.device-limit-popup-background-container .device-limit-popup-main-container .device-limit-popup-close {
+  width: 100%;
+  max-width: 350px;
+  /* top: 0%; */
+  height: 5%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 36px;
+}
+.device-limit-popup-background-container .device-limit-popup-main-container .device-limit-popup-close .close-button {
+  text-align: center;
+  background-color: #676363;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  float: right;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.device-limit-popup-background-container .device-limit-popup-main-container .device-limit-popup-close .close-icon {
+  background: url("https://zee5-public-sharing.s3.ap-south-1.amazonaws.com/zee5kalturaplayer/css/images/close-icon.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 32px;
+  width: 32px;
+  transform: scale(0.85);
+  margin: 4px;
+}
+.device-limit-popup-background-container .device-limit-popup-main-container .device-limit-popup-container {
+  background-color: #2e0130;
+  width: 345px;
+  width: 100%;
+  max-width: 350px;
+
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  height: 70vh;
+  transform: translate(-50%, 0%);
+}
+.device-limit-popup-background-container .device-limit-popup-main-container .device-limit-image-container {
+  margin: 0 auto;
+  margin-bottom: 11px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 113.7px;
+  height: 113.4px;
+  border-radius: 60px;
+  margin-top: 90px;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-image-container
+  .font-wrapper {
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2 {
+  height: 50%;
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .device-limit-title {
+  margin-top: 40px;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .device-limit-title
+  .limit-reached-warning {
+  font-size: 2rem;
+  font-family: "NotoSansMedium";
+  font-weight: bold;
+  line-height: 3rem;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .device-limit-title
+  .reset-device-text {
+  font-size: 1.4rem;
+  font-family: "NotoSansRegular";
+  line-height: 2rem;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .reset-cancel-container {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 32px;
+  box-sizing: border-box;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .reset-cancel-container
+  .reset {
+  border-radius: 25px;
+  font-family: "NotoSansBold";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9rem;
+  letter-spacing: 0.43px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 40px 12px 40px;
+  cursor: pointer;
+  border: none;
+  background-image: linear-gradient(272deg, #a100ff, #ff0000 99%);
+  margin-right: 30px;
+}
+.device-limit-popup-background-container
+  .device-limit-popup-main-container
+  .device-limit-popup-container
+  .device-limit-container-2
+  .reset-cancel-container
+  .cancel {
+  border-radius: 25px;
+  font-family: "NotoSansBold";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9rem;
+  letter-spacing: 0.43px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 40px 12px 40px;
+  cursor: pointer;
+  border: 1px solid;
+  background: transparent;
+}
+#myProgress {
+  width: 100%;
+  background-color: transparent;
+  opacity: 1 !important;
+  display: block;
+  /* z-index: 9999; */
+  z-index: 1;
+  position: absolute;
+  bottom: 0%;
+}
+#adsSeekBar {
+  width: 0%;
+  height: 3px;
+  background-color: #ffc52f;
+}
+#liveBar {
+  width: 0%;
+  height: 4px;
+  background-color: #bf006b;
+}
+
+.teaser-wrapper {
+	height: 48px;
+	padding: 0 16px;
+	background-color: #401a4c;
+	position: relative;
+	cursor: pointer;
+	pointer-events: all !important;
+}
+
+.teaser-wrapper .teaser-container {
+	display: table;
+}
+
+.teaser-wrapper .teaser-grid1,
+.teaser-wrapper .teaser-grid2 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 48px;
+	width: 100%;
+}
+.playerDiv .teaser-wrapper .teaser-container 
+.teaser-grid2 .subscribe-teaser-button,
+.playerDiv .teaser-wrapper .teaser-container .teaser-grid2 {
+  height: 36px;
+}
+.teaser-wrapper .teaser-grid1 {
+	text-align: left;
+}
+.teaser-wrapper .teaser-grid2 {
+	text-align: right;
+	min-width: 150px;
+}
+.teaser-wrapper .subscribe-teaser-text {
+	color: #fff;
+	font-family: 'NotoSansMedium', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+	padding-right: 10px;
+}
+@media screen and (max-width: 600px) {
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_ta,
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_ml,
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_kn,
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_te {
+    margin-top: 5.2%!important;
+    font-size: 13px;
+  }
+  #player-placeholder .launch-container > .okButton{
+    top: 60%;
+    right: 43%;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_ta,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_ml,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_kn,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_te {
+    font-size: 11px;
+    line-height: 1;
+  }
+  .zeeplex-Logo-container {
+    position: relative;
+    top: 12px;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container {
+    width: 96%!important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .GoliveContainer {
+    height: 25px;
+  }
+  .goliveBtn {
+    font-size: 10px;
+  }
+  .teaser-wrapper .subscribe-teaser-text.subscribe-teaser-text--tamil {
+    font-size: 1rem;
+    word-break: break-all;
+  }
+  .teaser-wrapper .subscribe-teaser-button-tamil.subscribe-teaser-button-ml{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .zeeplex-Logo-container {
+    top: 16px;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_ta,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.subscribemsg_ml,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .alreadyHave-msg.alreadyHave-msg.subscribemsg_kn
+  {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 899px) and (orientation: landscape) {
+  .teaser-wrapper .subscribe-teaser-button-tamil.subscribe-teaser-button-ml{
+    font-size: 1rem;
+  }
+  .teaser-wrapper .subscribe-teaser-text.subscribe-teaser-text--tamil {
+    font-size: 1rem;
+  }
+}
+
+.teaser-wrapper .subscribe-teaser-button,
+.teaser-wrapper .subscribe-teaser-button-tamil {
+	height: 28px;
+	padding: 0 16px 0 30px;
+	background-color: #ffffff;
+	font-family: 'NotoSansMedium', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	font-weight: 600;
+	color: #ff0091;
+	border-radius: 14px;
+	border: none;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+}
+
+.teaser-wrapper .subscribe-teaser-button-tamil:before,
+.teaser-wrapper .subscribe-teaser-button:before {
+	content: '';
+	background: center/100% 100% no-repeat url('./images/premium-ic.svg');
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 12px;
+	top: -2px;
+	bottom: 0;
+	margin: auto;
+}
+.teaser-wrapper .subscribe-teaser-button-tamil.player-club-icon:before,
+.teaser-wrapper .subscribe-teaser-button.player-club-icon:before {
+	background: center/100% 100% no-repeat url('./images/club-ic.svg');
+}
+.teaser-wrapper .subscribe-teaser-button-tamil.app-install-button:before,
+.teaser-wrapper .subscribe-teaser-button.app-install-button:before {
+  background: none;
+}
+.teaser-wrapper .subscribe-teaser-button.app-install-button,
+.teaser-wrapper .subscribe-teaser-button-tamil.app-install-button {
+  padding: 0 16px 0 16px;
+}
+
+.skip_intro {
+  text-align: center;
+  display: flex;
+  height: 35px;
+  width: 80px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 15px;
+  background-color: black;
+  bottom: 74px;
+  opacity: 1;
+  border-radius: 5px;
+  color: #a785ff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "NotoSansMedium";
+  cursor: pointer;
+}
+.skip_intro_lang_te{
+  width: 110px;
+}
+.skip_intro_lang_ta{
+  width: 132px;
+}
+.skip_intro_lang_ml{
+  width: 164px;
+}
+#liveProgressBar {
+  width: 100%;
+  background-color: transparent;
+  opacity: 1;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  bottom: 45px;
+}
+#player-placeholder .playkit-player .playkit-seek-bar{
+  /* padding:16px 0; */
+  padding: 0px 0px 6px 0px;
+  margin: 0px 0px 10px 0px;
+}
+/*Media query */
+
+/**************************/
+@media (min-width: 600px) {
+  /* #player-placeholder .playkit-player .playkit-seek-bar {
+    padding: 6px 0px;
+    margin: 10px 0px;
+  } */
+  .GoliveContainer {
+    height: 25px;
+  }
+  .goliveBtn {
+    font-size: 10px;
+  }
+
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer,
+  #player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer{
+    margin-bottom: 52px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer{
+    margin-bottom: 30px;
+    width: 30vw;
+  }
+ 
+  #player-placeholder .carousel-slider{
+    bottom: 68px;
+    height: 114px;
+  }
+  #player-placeholder .playkit-player .playkit-seek-bar {
+    padding: 6px 0px;
+    margin: 10px 0px;
+  }
+  .carouselMain #player-placeholder .playkit-player .playkit-bottom-bar .bottom-left-container .volume-container{
+    right:4%;
+    margin-bottom:32%;
+  }
+  .poc-loader {
+    top: 50%;
+  }
+  
+  .carouselMain
+  #player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-left-container
+  .volume-container:hover {
+    right:4%;
+  }
+  .playkit-player.playkit-touch:not(.playkit-state-idle).playkit-hover
+    .playkit-player-gui
+    > .playkit-playback-controls
+    .playkit-icon {
+    width: 46px;
+    height: 46px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_kn .itemWrapper .mainMenu {
+    margin-left: 6px;
+  }
+
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml .itemWrapper .mainMenu {
+    margin-left: 10px;
+  }
+  #player-placeholder .trailerInfoContainer{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 22px;
+    font-size: 16px;
+    left: 32px;
+    width: 350px;
+  }
+
+  #player-placeholder .eduauraaMessage{
+    bottom: 16px;
+    font-size: 12px;
+    left: 16px;
+  }
+
+  .livetagContainer .playkit-live-tag{
+    /* right:12%; */
+  }
+  #player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar{
+    height:3px;
+  }
+  #player-placeholder .playkit-player-gui > .playkit-playback-controls {
+    left: 30%;
+    right: 30%;
+    top: 50%;
+  }
+ 
+  #player-placeholder .watchCreditContainer {
+    margin-right: 10px;
+    height: 30px;
+    width: 90px;
+    top: calc(100% - 214px);
+  }
+  #player-placeholder .watchCreditContainer .watchCreditText {
+    font-size: 9px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .mainMenu {
+    margin-left: 12px;
+  }
+  #player-placeholder .launch-container .launch-text {
+    font-size: 18px;
+  }
+  #player-placeholder .main-container .adult-content-error-msg {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .playkit-hover .playkit-subtitles > div > div {
+    bottom: 60px !important;
+  }
+  .playkit-subtitles > div > div {
+    font: 14px sans-serif !important ;
+  }
+  .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 60px !important;
+  }
+
+  #player-placeholder .chromeCastBtnContainer {
+    height: 24px;
+    width: 30px;
+  }
+
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml {
+    width: 35vw;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer,
+  #player-placeholder .bottom-right-container .settingcontainer .subtitleMenuContainer {
+    width: 28vw;
+    max-height: 250px;
+    margin-bottom: 50px;
+  }
+  /* .networkImage img {
+		width: 200px;
+	} */
+  /* #player-placeholder .carousel-slider {
+    top: calc(100% - 45%);
+  } */
+  #player-placeholder .carousel-slider .carousal-video-movies {
+    height: 85%;
+    width: 194px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv {
+    width: 350px;
+    height:92px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .carousal-video {
+    height: 74px;
+    width: 140px !important;
+    margin: 8px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer {
+    width: 175px;
+    height: 65px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNext {
+    top: 12px;
+    font-size: 15px;
+    height: 20px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextTitle {
+    top: 15px;
+    font-size: 15px;
+    width: 170px !important;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextStart {
+    font-size: 15px;
+    top: 19px;
+  }
+  .popup-background-container .beforeTv-popup-main-container {
+    width: 75%;
+  }
+  .popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .image-container {
+    height: 236px;
+  }
+  .popup-background-container
+    .beforeTv-popup-main-container
+    .beforeTv-subscribe-popup-container
+    .popup-title-container {
+    font-size: 24px;
+  }
+  .popup-background-container
+    .beforeTv-popup-main-container
+    .beforeTv-subscribe-popup-container
+    .shows-list-container
+    #list-item {
+    font-size: 1.3em;
+  }
+  .popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .Upgrade-to-Premium {
+    font-size: 2em;
+  }
+  .popup-background-container .beforeTv-popup-main-container .beforeTv-subscribe-popup-container .Watch-free-container {
+    font-size: 20px;
+  }
+}
+@media (min-width: 900px) {
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer {
+    width: 20vw;
+    margin-bottom: 30px;
+    right: -52px;
+  }
+  
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .mainMenu {
+    margin-left: 10px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer,
+  #player-placeholder .bottom-right-container .settingcontainer .subtitleContainer .subtitleMenuContainer {
+    width: 20vw;
+    max-height: 250px;
+    margin-bottom: 56px;
+    right: -52px;
+    font-size: 1em;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .playkit-control-button .subtitleMenuContainer{
+    right:-74px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml {
+    width: 26vw;
+  }
+  /* #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container {
+    margin-right: 10px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_kn .itemWrapper .mainMenu {
+    margin-left: 0px;
+  }
+  } */
+  #player-placeholder .watchCreditContainer {
+    margin-right: 15px;
+    height: 37px;
+    width: 110px;
+    top: calc(100% - 220px);
+  }
+  #player-placeholder .watchCreditContainer .watchCreditText {
+    font-size: 12px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper {
+    padding-bottom: 15px;
+	padding-top: 15px;
+  }
+  #player-placeholder
+    .bottom-right-container
+    .settingcontainer
+    .settingsMainContainer
+    .itemWrapper
+    .mainMenu
+    .menuTitle {
+    font-size: 1em;
+  }
+
+  .playkit-hover .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+  .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+  .playkit-subtitles > div > div {
+    font: 18px sans-serif !important;
+  }
+  .playkit-fullscreen .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+  .playkit-fullscreen .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+  .playkit-hover.playkit-fullscreen .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer .iconWrap {
+    background-size: 25px;
+  }
+  .tickMark {
+    background-size: 25px;
+  }
+
+ 
+  #player-placeholder .carousel-slider {
+    /* top: calc(100% - 33%); */
+    bottom:62px;
+  }
+  #player-placeholder .carousal-button-container {
+    top: calc(100% - 22%);
+    display: block;
+  }
+  #player-placeholder .carousal-next-button {
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: calc(100% - 132px);
+  }
+  #player-placeholder .carousal-prev-button {
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: calc(100% - 132px);
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container {
+    width: 60%;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 {
+    font-size: 16px;
+    margin: 7% 10%;
+  }
+
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 {
+    font-size: 18px;
+    margin: 7% 10%;
+  }
+  #player-placeholder
+    .playkit-video-player
+    .playkit-container
+    .networkError
+    .networkErrorAllContainer
+    .networkErrorContainer
+    .networkErrorMsg {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  #player-placeholder
+    .playkit-video-player
+    .playkit-container
+    .networkError
+    .networkErrorAllContainer
+    .networkErrorContainer
+    .retryButton {
+    padding-top: 1.2rem;
+  }
+  #player-placeholder
+    .playkit-video-player
+    .playkit-container
+    .networkError
+    .networkErrorAllContainer
+    .networkErrorContainer
+    .retryButton
+    .retry {
+    font-size: 20px;
+  }
+  /* .teaser-wrapper .subscribe-teaser-button-tamil {
+    height: 36px;
+    border-radius: 18px;
+  } */
+  .teaser-wrapper .subscribe-teaser-button-tamil:before,
+  .teaser-wrapper .subscribe-teaser-button:before {
+    top: -1px;
+  }
+}
+@media (min-width: 1200px) {
+  /* #player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control .playkit-icon-forward-10 {
+    transform: scale(1.6);
+  } */
+  .zeeplex-Logo-container {
+    width: 95px;
+    height: 48px;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 .subscribe-link {
+    font-size: 16px;
+  }
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2.mandatory * {
+    /* display: inline; */
+    font-size: 16px;
+  }
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+	  text-size-adjust: 100%;
+  }
+  #player-placeholder
+  .playkit-video-player
+  .main-container
+  .main-Inner-container
+  .main-container-1
+  .subscribe-msg-premium.subscribemsg_ml, .subscribe-msg-premium.subscribemsg_ta, #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-1 .subscribe-link.subscribemsg_ml,
+  #player-placeholder .playkit-video-player .main-container .main-Inner-container .main-container-2 .login-msg.subscribemsg_ml{
+    line-height: normal;
+  }
+  #player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button > .playkit-icon-start-over{
+    width:46px;
+    height:46px;
+  }
+  #player-placeholder .carousal-next-button{
+    top:calc(100% - 150px);
+  }
+  #player-placeholder .carousal-prev-button {
+     top:calc(100% - 150px)
+  }
+  #player-placeholder .playkit-player .playkit-seek-bar {
+    padding: 6px 0px;
+    margin: 10px 0px;
+  }
+  .livetagContainer .playkit-live-tag{
+    /* right: 10%; */
+    line-height: 21px;
+  }  
+  #player-placeholder .playkit-player-gui > .playkit-playback-controls{
+    left: 30%;
+    right: 30%;
+  }
+  .skip_intro {
+    bottom: 76px;
+  }
+  .carouselMain #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .timeDuration-Container {
+    top:25px;
+  }
+  .carouselMain .livetagContainer .playkit-live-tag{
+    right: 20%;
+    line-height: 21px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .subtitleContainer .playkit-icon-language {
+    font-size: 24px;
+  }
+  #player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button,
+  #player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button i{
+    width:24px;
+    height:24px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control,
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control{
+    margin-top:36px;
+    height: 96px;
+  }
+  #player-placeholder
+  .playkit-control-button-container.playkit-control-play-pause
+  .playkit-control-button
+  .playkit-icon-pause{
+    font-size:85px;
+  }
+  #player-placeholder
+  .playkit-control-button-container.playkit-control-play-pause
+  .playkit-control-button
+  .playkit-icon-play{
+    font-size:56px;
+  }
+#player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control .playkit-icon-forward-10,
+#player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control .playkit-icon-rewind-10 {
+  font-size:24px;
+}
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button i {
+  width:auto;
+  height:auto;
+}
+#player-placeholder .playkit-player-gui > .playkit-playback-controls{
+  height:96px;
+}
+#player-placeholder .playkit-player .playkit-playback-controls .playkit-control-play-pause .playkit-control-button{
+  width:96px;
+  height:96px;
+  /* width:56px;
+  height:56px; */
+}
+#player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar{
+  height: 4px;
+}
+#player-placeholder .playkit-player .playkit-seek-bar .playkit-progress-bar .playkit-scrubber{
+  width:14px;
+  height: 14px;
+  top: -6px;
+}
+  #player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-right-container
+  .playkit-control-fullscreen
+  .playkit-control-button
+  .playkit-icon-maximize,
+  #player-placeholder
+  .playkit-player-gui
+  .playkit-bottom-bar
+  .bottom-right-container
+  .playkit-control-fullscreen
+  .playkit-control-button
+  .playkit-icon-minimize {
+  background-image: none;
+  font-size: 24px;
+}
+
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-base {
+    font-size: 24px !important;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-waves,
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-mute {
+    /* margin-top: 20%; */
+    font-size: 24px !important;
+  }
+  #player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button, #player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button i{
+    width: 24px !important;
+    height: 24px !important;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .playkit-control-button-container .playkit-control-button .playkit-icon-settings{
+    width: 24px !important;
+    height: 24px !important;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .playkit-control-button .playkit-icon-settings{
+    font-size:24px;
+  }
+ 
+  .carouselMain #player-placeholder .playkit-player .playkit-bottom-bar .bottom-left-container .volume-container {
+    right: 8%;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_kn .itemWrapper .mainMenu {
+    margin-left: 12px;
+  }
+  .carouselMain
+    #player-placeholder
+    .playkit-player-gui
+    .playkit-bottom-bar
+    .bottom-left-container
+    .volume-container:hover {
+    right: 8%;
+  }
+  #player-placeholder .watchCreditContainer {
+    top: calc(100% - 240px);
+  }
+  .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 65px !important;
+  }
+  .playkit-hover .playkit-subtitles > div > div {
+    bottom: 80px !important;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .mainMenu {
+    margin-right: 21px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml .itemWrapper .mainMenu {
+    margin-left: 8px;
+  }
+  .playkit-fullscreen .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 70px !important;
+  }
+  /* .playkit-player .playkit-bottom-bar .playkit-control-button-container {
+    margin: 0 6px;
+  } */
+  .playkit-fullscreen .playkit-state-paused .playkit-subtitles > div > div {
+    bottom: 70px !important;
+  }
+  .playkit-fullscreen .playkit-subtitles > div > div {
+    bottom: 70px !important;
+  }
+  .playkit-hover.playkit-fullscreen .playkit-subtitles > div > div {
+    bottom: 70px !important;
+  }
+
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer .itemWrapper .iconsWrapper {
+    font-size: 20px;
+  }
+  /* #player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control .playkit-icon-rewind-10 {
+    transform: scale(1.6);
+  } */
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .AdstotalDuration {
+    display: block;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .AdscurrentDuration {
+    display: block;
+  }
+  
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer {
+    width: 13vw;
+    margin-bottom:32px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ml {
+    width: 22vw;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_ta,
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_te {
+    width: 16vw;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer.lang_kn{
+    width: 20vw;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer,
+  #player-placeholder .bottom-right-container .settingcontainer .subtitleContainer .subtitleMenuContainer {
+    width: 13vw;
+    max-height: 300px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer.lang_ml,
+  #player-placeholder .bottom-right-container .settingcontainer .subMenuContainer.lang_ta {
+    width: 16vw;
+  }
+  #player-placeholder .timeDuration-Container .playkit-time-display {
+    font-size: 14px;
+    padding: 2px 0px 0px 0px;
+  }
+  .playkit-spinner {
+    animation: none !important;
+    background-image: url("https://www.zee5.com/assets/common/loading.gif");
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    position: unset;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .networkErrorMsg {
+    font-size: 14px;
+    color: white;
+  }
+  .retry {
+    font-size: 20px;
+  }
+  .networkErrorContainer {
+    padding: 2rem;
+  }
+  #player-placeholder .playkit-player-gui .playkit-control-button-container .playkit-volume-control-bar {
+    display: block !important;
+  }
+  #player-placeholder .volume-container .playkit-volume-control-bar {
+    position: absolute;
+    z-index: 2;
+    left: 4px;
+    width: 16px;
+    border-radius: 2px;
+    height: 0;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    opacity: 0;
+    padding: 6px;
+    padding-top: 20px;
+    display: block !important;
+    pointer-events: none;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 0px;
+  }
+  /* #player-placeholder
+		.playkit-control-button-container.playkit-volume-control.playkit-hover
+		.playkit-volume-control-bar {
+		height: 112px;
+		pointer-events: all;
+		opacity: 1;
+		transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+	} */
+  #player-placeholder
+    .volume-container:hover
+    .playkit-control-button-container.playkit-volume-control
+    .playkit-volume-control-bar {
+    height: 112px;
+    pointer-events: all;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .carouselMain #player-placeholder .volume-container .playkit-volume-control-bar {
+    padding-top: 30px;
+    bottom: 30px;
+  }
+  .carouselMain
+    #player-placeholder
+    .playkit-player-gui
+    .playkit-bottom-bar
+    .bottom-left-container
+    .volume-container:active {
+    margin-right: 0px;
+  }
+  #player-placeholder .volume-container .playkit-volume-control-bar .playkit-progress {
+    background: linear-gradient(270deg, #5730C7 0%, #5C2ADE 48.11%, #2928D4 94.83%);
+  }
+
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .volume-bar-scrubber {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #5C2ADE;
+    left: -4px;
+    bottom: 10px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container {
+    float: left;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container:hover {
+    margin-right: 110px;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container:active {
+    margin-right: 110px;
+  }
+
+  #player-placeholder .carousel-slider {
+    /* top: calc(100% - 187px); */
+    bottom: 70px;
+  }
+  /* #player-placeholder .carousel-slider > div {
+    height: 120px;
+  } */
+  #player-placeholder .carousel-slider .carousal-video-movies {
+    width: 205px;
+    height: 133px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv {
+    width: 420px;
+    height: 108px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .carousal-video {
+    height: 80px;
+    width: 182px !important;
+    margin: 12px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer {
+    width: 160px;
+    height: 80px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNext {
+    top: 10px;
+    font-size: 20px;
+    height: 35px;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextTitle {
+    top: 7px;
+    font-size: 16px;
+    width: 170px !important;
+  }
+  #player-placeholder .carousel-slider .mainCarouselDiv .metadataContainer .upNextStart {
+    font-size: 17px;
+    top: 15px;
+  }
+  #player-placeholder .playkit-video-player .parentlockContainer .parentLock .parentLockInput {
+    margin-top: 25px;
+  }
+  #player-placeholder .playkit-video-player .parentlockContainer .parentLock #incorrectPin {
+    margin-top: 15px;
+  }
+  .popup-background-container .device-limit-popup-main-container {
+    max-width: 600px;
+  }
+  .popup-background-container .device-limit-popup-main-container .device-limit-popup-container {
+    width: 600px;
+    max-width: 600px;
+  }
+  .popup-background-container
+    .device-limit-popup-main-container
+    .device-limit-popup-container
+    .device-limit-popup-close {
+    left: 62%;
+    max-width: 600px;
+  }
+  /* #player-placeholder .carousal-next-button {
+		top: calc(100% - 30%);
+	}
+	#player-placeholder .carousal-prev-button {
+		top: calc(100% - 30%);
+  } */
+  
+  #player-placeholder .trailerInfoContainer{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    height: 19px;
+    font-weight: 600;
+    font-family: "NotoSansMedium";
+  }
+
+  #player-placeholder .eduauraaMessage{
+    font-size: 12px;
+    font-family: "NotoSansMedium";
+  }
+
+  #ad_overlay1 {
+    bottom: 36px !important;
+  }
+  #player-placeholder
+  .playkit-control-button-container.playkit-control-play-pause
+  .playkit-control-button
+  .playkit-icon-play {
+    font-size: 40px;
+} 
+#player-placeholder
+ .playkit-control-button-container.playkit-control-play-pause
+ .playkit-control-button
+ .playkit-icon-pause{
+  font-size: 56px;
+ }
+
+	.teaser-wrapper {
+		height: 65px;
+    padding: 0 7px 0 0;
+    width: 64.5%;
+    box-sizing: border-box;
+    background: none;
+  }
+  
+  .teaser-wrapper .teaser-container {
+    display: table;
+    background: #401a4c;
+    padding: 0px 32px;
+}
+
+.playerDiv .teaser-wrapper { 
+  width: 64.5%;
+}
+
+.playerDiv .teaser-wrapper .teaser-container {
+  padding: 0 32px;
+}
+
+.playerDiv .teaser-wrapper .teaser-container .teaser-grid1{
+  height: 65px;
+}
+
+.teaser-wrapper .teaser-grid1,
+.teaser-wrapper .teaser-grid2 {
+  height: 65px;
+}
+  
+  .teaser-wrapper .teaser-grid2 {
+    min-width: 190px;
+  }
+
+	.teaser-wrapper .subscribe-teaser-text {
+		font-size: 1.5rem;
+		line-height: 2.7rem;
+	}
+	.teaser-wrapper .subscribe-teaser-button,
+	.teaser-wrapper .subscribe-teaser-button-tamil {
+		height: 36px;
+		padding: 0 20px 0 34px;
+		font-size: 1.4rem;
+		line-height: 1.8rem;
+		border-radius: 18px;
+  }
+  /* .teaser-wrapper .subscribe-teaser-button-tamil {
+		height: 46px;
+		border-radius: 23px;
+	} */
+	.teaser-wrapper .subscribe-teaser-button-tamil:before,
+	.teaser-wrapper .subscribe-teaser-button:before {
+		width: 18px;
+		height: 18px;
+		left: 14px;
+		top: -2px;
+	}
+}
+@media (min-width: 1800px) {
+  #player-placeholder .trailerInfoContainer{
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    left: 24px;
+    width: 380px;
+    height:22px;
+  }
+
+  #player-placeholder .eduauraaMessage{
+    font-size: 16px;
+  }
+
+}
+@media (min-width: 1800px){
+  .playkit-player .playkit-bottom-bar{
+    padding:0px 24px 16px 24px;
+  }
+  #player-placeholder .bottom-right-container .settingcontainer .settingsMainContainer {
+    margin-bottom: 34px;
+  }
+  #player-placeholder .watchCreditContainer {
+    top: calc(100% - 244px);
+}
+  #player-placeholder .carousel-slider{
+    bottom:74px;
+  }
+  #player-placeholder .playkit-player-gui > .playkit-playback-controls{
+    left: 31%;
+    right: 31%;
+  }
+  .skip_intro{
+    bottom:82px;
+  }
+  .livetagContainer .playkit-live-tag{
+    line-height: 30px;
+    /* right:13%; */
+  }
+  .carouselMain .livetagContainer .playkit-live-tag{
+    right: 20%;
+    line-height: 21px;
+  }
+  .carouselMain #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .timeDuration-Container {
+    top:30px;
+  }
+  #player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button,
+  #player-placeholder .playkit-player .playkit-playback-controls .playkit-control-button i{
+    width:40px;
+    height:40px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control .playkit-icon-forward-10,
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control .playkit-icon-rewind-10{
+    font-size:40px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .rewind-control,
+  #player-placeholder .playkit-player-gui .playkit-playback-controls .forward-control{
+    margin-top:28px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container,
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container{
+    height:32px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .volume-container{
+    padding-right:16px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .timeDuration-Container{
+    padding-left:16px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .toggleScreen .playkit-control-button-container{
+    margin:0 0 0 16px;
+  }
+  .playkit-player .playkit-bottom-bar .playkit-control-button-container{
+    margin:0 16px;
+  }
+  #player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button,
+  #player-placeholder .playkit-player .playkit-bottom-bar .playkit-control-button i {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-left-container .timeDuration-Container{
+    top:0px
+  }
+  #player-placeholder .volume-container .playkit-volume-control-bar {
+    left:8px;
+  }
+  
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .playkit-control-fullscreen .playkit-control-button .playkit-icon-maximize,
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .playkit-control-fullscreen .playkit-control-button .playkit-icon-minimize {
+    font-size:32px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .playkit-control-button-container .playkit-control-button .playkit-icon-settings {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .settingcontainer .playkit-control-button .playkit-icon-settings,
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .bottom-right-container .subtitleContainer .playkit-icon-language
+ {
+    font-size:32px;
+  }
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-waves,
+  #player-placeholder .playkit-player-gui .playkit-bottom-bar .playkit-icon-volume-mute{
+    font-size: 32px !important;
+  }
+  .teaser-wrapper {
+    width: 69.62%;
+    padding: 0 9px 0 0;
+  }
+}
+/*Mobile landscape*/
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: landscape) {
+  #player-placeholder .playkit-player-gui > .playkit-playback-controls{
+    left: 37%;
+    right: 37%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1199px) and (orientation: landscape) {
+  #player-placeholder .playkit-player-gui > .playkit-playback-controls{
+    left: 37%;
+    right: 37%;
+  }
+} */
+
+.carousel-slider::-webkit-scrollbar {
+  background-color: transparent;
+  height: 5px;
+  width: 5px;
+  border-radius: 2px;
+}
+
+/* Hide player controls */
+#toggle-player-controls{
+  display: none;
+}
+
+#ad_overlay1 {
+  position: absolute;
+  width: 80%;
+  left: 15px;
+  z-index: 99;
+  margin: 0;
+  padding: 0;
+  bottom: 62px;
+  right: 10px;
+  text-decoration: none;
+  display: none;
+}
+@media (min-width: 1200px) {
+  #ad_overlay1 {
+    display: block;
+  } 
+}
+@supports (-webkit-touch-callout: none) {
+	.playkit-size-iframe {
+		top: 0;
+	}
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .playkit-subtitles > div > div > div {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .playkit-subtitles > div > div > div {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1799px) {
+  .playkit-subtitles > div > div > div {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .playkit-subtitles > div > div > div {
+    font-size: 30px;
+  }
+}
+
+/* cast */
+.cast.playkit-poster::after {
+  background: unset !important;
+}
+.cast-play-pause.playkit-icon-play,
+.cast-play-pause.playkit-icon-pause {
+  background-image: none;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 32px;
+  color: #fff;
+}
+.cast-play-pause.playkit-icon-play::before{
+  content: "\70";
+}
+.cast-play-pause.playkit-icon-pause::before{
+  content: "\50";
+}
+.cast-status{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.575);
+  font-size: 12px;
+  color: white;
+  width: 85%;
+  padding: 1%;
+  margin: auto;
+  text-align: center;
+  height: auto;
+  top: -80%;
+  left:0;
+  right:0;
+  z-index: -1;
+}
+
+@media (min-width: 600px) {
+  .cast-status{
+    width: 80%;
+    font-size: 18px;
+    top:-60%;
+  }
+}
+
+#player-placeholder .launch-container .appStoreWrapper{
+  margin:auto;
+}
+
+#player-placeholder .launch-container .appStoreWrapper span.getApp {
+  margin: 20px;
+}
+
+/* Info container */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }  
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.info-container{
+  height: auto;
+  width: auto;
+  position: absolute;
+  color: #FFFFFF;
+  top: 8px;
+  left: 8px;
+  padding-left: 8px;
+  border-left: 4px solid #8230C6;
+  margin-right: 6px;
+  font-style: normal;
+  animation: 0.5s ease-in-out 0s 1 fadeIn;
+}
+
+.info-container-inverse {
+  animation: 0.5s ease-in-out 0s 1 fadeOut;
+}
+
+.info-container .rating{
+  font-family: "NotoSansBold";
+  font-weight: bold;
+  height: 16px;
+  font-size: 12px;
+  padding-bottom: 1px;
+  line-height: 16px;
+}
+
+.info-container .description {
+  font-family: "NotoSansRegular";
+  font-weight: normal;
+  height: 28px;
+  font-size: 10px;
+  line-height: 14px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .info-container{
+    top:16px;
+    left: 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .info-container{
+    height: auto;
+  }
+  .info-container .rating{
+    height: 33px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .info-container .description {
+    height: auto;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .main-container-1 {
+    margin-top: 0px !important;
+  }
+  .skip-button.subscribe-link.subscribemsg_en {
+    margin: 5px auto !important;
+  }
+}
